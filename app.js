@@ -2,9 +2,9 @@ const ERROR_BORDER_COLOR = "hsl(354, 84%, 57%)";
 const CORRECT_BORDER_COLOR = "hsl(243, 100%, 62%)";
 
 let ind = 0;
-let validName = true;
-let validEmail = true;
-let validPhone = true;
+let validName = false;
+let validEmail = false;
+let validPhone = false;
 let selectedPlan = "Arcade (Monthly)";
 let selectedPlanPriceValue = "$9/mo";
 let planMode = "monthly";
